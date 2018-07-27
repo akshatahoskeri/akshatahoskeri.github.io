@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+	
+	<!-- Font Family -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--JQuery Modal-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+	<!--CSS StyleSheet-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<title>JQuery</title>
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="navigationBar">
+
+		<nav class="navBar" id="navId">
+			<div class="togglerClass">
+				<a class="toggler" id="toggleClick">
+			    	<i class="fa fa-bars"></i>
+			 	</a>
+			</div>
+			<ul>
+				<li><a class="navBarComponent" href="">NavBar</a></li>
+				<li><a class="navBarComponent" href="">Accordion</a></li>
+				<li><a class="navBarComponent" href="">Modal</a></li>
+			</ul>
+		</nav>
+
+	</div>
+
+
+	<div class="accordion">
+		<div class="card">
+			<div class="cardHeader"><a href="#" class="collapseButton" id="card1click">Item No 1</a></div>
+			<div class="accordionContent" id="content1">
+				<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="cardHeader"><a href="#" class="collapseButton" id="card2click">Item No 2</a></div>
+			<div class="accordionContent" id="content2"><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p></div>
+		</div>
+		<div class="card">
+			<div class="cardHeader"><a href="#" class="collapseButton" id="card3click">Item No 3</a></div>
+			<div class="accordionContent" id="content3"><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p></div>
+		</div>
+	</div>
+
+	<!-- Link to open the modal -->
+	<div class="modalButton"><p><a href="#modalContent" rel="modal:open">Launch Modal</a></p></div>
+</div>
+
+<div class="modal" id="modalContent">
+	<div class="modalContainer">
+		<div class="modalHeader">
+			<span>Modal Title</span>
+		</div>
+
+		<div class="modalBody">
+			<p>This is a Modal Demo</br></br>Please click on OK</p>
+		</div>
+
+		<div class="modalFooter">
+			<button type="button" id="buttonOk" rel="modal:close"><a href="#" rel="modal:close">OK</a></button>
+
+		</div>
+	
+	</div>
+</div>
+
+<script type="text/javascript" src="jQuery-3.3.1.min.js"></script>
+<script src="script.js"></script>
+
+<!--JQuery Modal Library-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+
+</body>
+
+</html>	
